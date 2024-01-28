@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../img/logo/logo-wpu.png" />
+    <title>Bermain Warna - DOM - HTML 5</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      h1 {
+        text-align: center;
+      }
+      button {
+        display: block;
+        margin: 15px auto;
+      }
+      .biru-langit {
+        background-color: skyblue;
+      }
+      #slider {
+        display: block;
+        margin: 0 auto;
+      }
+      .kotak {
+        width: 25px;
+        height: 25px;
+        margin: 10px auto;
+      }
+      .merah {
+        background-color: red;
+      }
+      .hijau {
+        background-color: green;
+      }
+      .biru {
+        background-color: blue;
+      }
+      p {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Bermain Warna - DOM - HTML 5 🖌️</h1>
+    <button type="button" id="tUbahWarna">Ubah Warna - Biru Langit</button>
+    <br /><br />
+
+    <div class="kotak merah"></div>
+    <input type="range" id="slider" name="sMerah" min="0" max="255" />
+
+    <div class="kotak hijau"></div>
+    <input type="range" id="slider" name="sHijau" min="0" max="255" />
+
+    <div class="kotak biru"></div>
+    <input type="range" id="slider" name="sBiru" min="0" max="255" />
+
+    <script src="script2.js"></script>
+  </body>
+</html>
