@@ -8,7 +8,7 @@ function getPilihanComputer() {
 function getHasil(comp, player) {
   if (player == comp) return "Seri";
   if (player == "gajah") return comp == "orang" ? "Menang" : "Kalah";
-  if (player == "orang") return comp == "orang" ? "Kalah" : "Menang";
+  if (player == "orang") return comp == "gajah" ? "Kalah" : "Menang";
   if (player == "semut") return comp == "orang" ? "Kalah" : "Menang";
 }
 
